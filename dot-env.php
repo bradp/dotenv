@@ -50,7 +50,6 @@ function dotenv_init() {
 	}
 }
 
-
 /**
  * Get the location of the .env file.
  *
