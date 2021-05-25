@@ -1,4 +1,4 @@
-# WP dotenv
+# dotenv
 
 > A WordPress plugin to set WordPress options from a .env file.
 
@@ -17,6 +17,6 @@ Any `WPENV_` prefixed variables in the `.env` will be used to override the WordP
 
 - You can define keys either as `WPENV_BLOGDESCRIPTION` or as `WPENV_blogdescription`, both will work.
 
-- If you'd like to define the location of your `.env` file, rather than the plugin looking for it, you can filter `wpdotenv_location` to be a directory path.
+- If you'd like to define the location of your `.env` file, rather than the plugin looking for it, you can filter `dotenv_location` to be a directory path.
 
-- You can also change the `WPENV_` prefix by filtering `wpdotev_key_prefix` to be a different prefix.
+- You can also change the `WPENV_` prefix by filtering `dotev_key_prefix` to be a different prefix.

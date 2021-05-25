@@ -1,18 +1,18 @@
 <?php
 /**
- * Plugin Name: WP dotenv
+ * Plugin Name: dotenv
  * Description: Set WordPress options from a .env file.
  * Version:     1.0.0
  * Author:      Brad Parbs
  * Author URI:  https://bradparbs.com/
  * License:     GPLv2
- * Text Domain: wpdotenv
+ * Text Domain: dotenv
  * Domain Path: /lang/
  *
- * @package wpdotenv
+ * @package dotenv
  */
 
-namespace WPDotEnv;
+namespace DotEnvWP;
 
 use \Dotenv;
 
@@ -20,12 +20,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-add_action( 'plugins_loaded', __NAMESPACE__ . '\\wpdotenv_init', 1 );
+add_action( 'plugins_loaded', __NAMESPACE__ . '\\dotenv_init', 1 );
 
 /**
  * Kick it off.
  */
-function wpdotenv_init() {
+function dotenv_init() {
 
 	require_once __DIR__ . '/vendor/autoload.php';
 
@@ -59,7 +59,7 @@ function wpdotenv_init() {
 function get_env_location() {
 
 	// Allow filtering the full location to short circuit normal checks.
-	$location = apply_filters( 'wpdotenv_location', false );
+	$location = apply_filters( 'dotenv_location', false );
 
 	// If the filter was set, then use that, otherwise find the file.
 	return $location ? $location : find_env_file();
@@ -74,7 +74,7 @@ function find_env_file() {
 
 	// List of locations to check for the existence of a .env file.
 	$locations = apply_filters(
-		'wpdotenv_locations_to_check',
+		'dotenv_locations_to_check',
 		[
 			ABSPATH,
 			dirname( ABSPATH ),
