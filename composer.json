@@ -1,0 +1,14 @@
+{
+	"name": "bradp/wpdotenv",
+	"type": "wordpress-plugin",
+	"description": ".env",
+	"authors": [
+	  {
+		"name": "Brad Parbs",
+		"email": "brad@bradparbs.com"
+	  }
+	],
+    "require": {
+        "vlucas/phpdotenv": "^5.3"
+    }
+}
