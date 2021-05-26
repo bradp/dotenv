@@ -6,19 +6,19 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'e6459979fbbd92bb463a10a7268a0eb34bc24c1c',
-    'name' => 'bradp/wpdotenv',
+    'reference' => '61adfd2d775f533f5c002585f8b3d1f2e1135474',
+    'name' => 'bradp/dotenv',
   ),
   'versions' => 
   array (
-    'bradp/wpdotenv' => 
+    'bradp/dotenv' => 
     array (
       'pretty_version' => 'dev-main',
       'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => 'e6459979fbbd92bb463a10a7268a0eb34bc24c1c',
+      'reference' => '61adfd2d775f533f5c002585f8b3d1f2e1135474',
     ),
     'graham-campbell/result-type' => 
     array (
