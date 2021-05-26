@@ -27,24 +27,24 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => 'e6459979fbbd92bb463a10a7268a0eb34bc24c1c',
     'name' => 'bradp/wpdotenv',
   ),
   'versions' => 
   array (
     'bradp/wpdotenv' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => 'e6459979fbbd92bb463a10a7268a0eb34bc24c1c',
     ),
     'graham-campbell/result-type' => 
     array (
