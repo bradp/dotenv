@@ -1,7 +1,7 @@
 {
 	"name": "bradp/wpdotenv",
 	"type": "wordpress-plugin",
-	"description": ".env",
+	"description": "Set WordPress options from a .env file",
 	"authors": [
 	  {
 		"name": "Brad Parbs",
