@@ -2,7 +2,7 @@
 /**
  * Plugin Name: dotenv
  * Description: Set WordPress options from a .env file.
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      Brad Parbs
  * Author URI:  https://bradparbs.com/
  * License:     GPLv2
