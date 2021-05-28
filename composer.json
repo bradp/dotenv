@@ -2,6 +2,7 @@
 	"name": "bradp/dotenv",
 	"type": "wordpress-plugin",
 	"description": "Set WordPress options from a .env file",
+	"license": "GPLv2",
 	"authors": [
 	  {
 		"name": "Brad Parbs",

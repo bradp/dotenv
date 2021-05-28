@@ -14,7 +14,7 @@
 
 namespace DotEnvWP;
 
-use \Dotenv;
+use Dotenv;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
@@ -116,7 +116,7 @@ function load_and_get_env() {
  * @return bool Whether or not it's valid.
  */
 function check_if_our_env( $key ) {
-	return ( 0 === stripos( $key, get_key_prefix() ) );
+	return 0 === stripos( $key, get_key_prefix() );
 }
 
 /**
