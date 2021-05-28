@@ -1,6 +1,6 @@
 === dotenv ===
 Contributors: bradparbs
-Tags: developer, tools
+Tags: developer, tools, environment, config, configuration
 Requires at least: 5.2
 Tested up to: 5.7.2
 Stable tag: 1.0.2
