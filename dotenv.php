@@ -16,9 +16,7 @@ namespace DotEnvWP;
 
 use Dotenv;
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
+defined( 'ABSPATH' ) || die();
 
 add_action( 'plugins_loaded', __NAMESPACE__ . '\\dotenv_init', 1 );
 
